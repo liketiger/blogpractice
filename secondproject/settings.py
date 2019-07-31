@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['django-env.xu4gwnkbpf.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['django-env.xu4gwnkbpf.us-west-2.elasticbeanstalk.com', 'https://quiet-fjord-78024.herokuapp.com/']
 
 
 # Application definition
